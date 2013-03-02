@@ -1,0 +1,38 @@
+{
+    "name": "Cengage.CXP",
+    "displayName": "Homework",
+    "version": "1.0.1",
+    "creator": "Cengage Learning",
+    "rootURI": "/henley-static/mindapps/mindapp-cxp",
+    "helpURI": "/",
+    "authScheme": "none",
+    "dockItems": {
+        "homework": {
+            "icon": "images/icon.png",
+            "label": "Homework",
+            "action": {
+                "uri": "/view.html",
+                "width": "980"
+            }
+        }
+    },
+    "activities": {
+        "cxp_app": {
+            "displayName": "CXP Assessment Homework",
+            "description": "Online homework Assessment Creator",
+            "icon": "/images/icon.png",
+            "category": [
+                "assignment"
+            ],
+            "placement": "DISTINCT",
+            "supportsAnnotations": "on",
+            "supportsContextMenu": "on",
+            "add": {
+                "uri": "/add.html"
+            },
+            "configure": {
+                "uri": "/"
+            }
+        }
+    }
+}
